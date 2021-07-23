@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-style: normal;
+  text-align: left;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* :root {
+  font-size: 16pt;
+}
+
+* main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+  font-family: 'klee',sans-serif;
+  background: #00B2BD;
+}
+
+* main .profile-photo img {
+  display: block;
+  margin: 0 auto;
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+* main .profile-text {
+  margin: 0 auto;
+  max-width: 750px;
+  color: black;
+}
+
+* main .profile-text h1 {
+  text-align: center;
+  font-size: 2rem;
+  letter-spacing: 0.1em;
+}
+
+* main .profile-text .Furigana {
+  margin-bottom: 50px;
+}
+
+* main .profile-text p {
+  text-align: center;
+}
+
+* main .profile-text h2 {
+  font-style: normal;
+  text-align: center;
+}
+
+* main .profile-text .social {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2rem;
+}
+
+* main .profile-text .social li {
+  line-height: 1;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+}
+
+* main .profile-text .social li a {
+  text-decoration: none;
+  color: black;
+  -webkit-transition: 1s color;
+  transition: 1s color;
+}
+
+* main .profile-text .social li a:hover {
+  color: #f00;
+}
+
+* main .profile-text .link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 50px;
+  color: black;
+}
+
+* main .profile-text .link li {
+  list-style: none;
+}
+
+* main .profile-text .link li a {
+  color: black;
+  -webkit-transition: 0.6 color;
+  transition: 0.6 color;
+}
+
+* main .profile-text .link li a:hover {
+  color: #f00;
+}
+/*# sourceMappingURL=style1.css.map */

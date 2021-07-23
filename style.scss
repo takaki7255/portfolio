@@ -4,4 +4,47 @@
     border: none;
     font-style: normal;
     text-align: left;
+    box-sizing: border-box;
+    font-family: 'klee',sans-serif;
+    .text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+        min-height: 100vh;
+        min-width: 80%;
+        h1{
+            background-color: #00B2BD;
+            text-align: center;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 80%;
+            margin: 0 auto;
+            margin-bottom: 100px;
+            font-size: 48pt;
+
+        }
+        .link{
+            display: flex;
+            justify-content: space-around;
+            color: black;
+            width: 80%;
+            font-size: 17pt;
+            
+            li{
+                list-style: none;
+                
+                a{
+                    color: black;
+                    transition: 0.6 color;
+                }
+                a:hover{
+                    color: #f00;
+                }
+            }
+        }
+    }
+    
 }
