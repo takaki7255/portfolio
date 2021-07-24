@@ -5,4 +5,40 @@
     font-style: normal;
     text-align: left;
     box-sizing: border-box;
+    body{
+
+        header{
+            .header-text{
+                margin: 190px;
+                margin-left: 50px;
+                color: #000000;
+                font-family: 'klee',sans-serif;
+            }
+            h1{
+                font-size: 50pt;
+            }
+            div{
+                font-size: 16pt;
+            }
+
+        }
+        .main-contents{
+            .seisaku-zisseki{
+                li{
+                    figure{
+                        text-align: center;
+                        img{
+                            width: 80%;
+                            margin-bottom: 50px;
+                            max-height: 600px;
+                            border: black solid 1px;
+                        }
+                        figcaption{
+
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
