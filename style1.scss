@@ -17,8 +17,7 @@
         min-height: 100vh;
         font-family: 'klee',sans-serif;
         //background: linear-gradient(135deg,#00B2BD,#02b5be7c);
-        background: #00B2BD;
-        
+        background: #00b4bd2a;
         .profile-photo img {
             display: block;
             margin: 0 auto;
@@ -47,6 +46,7 @@
             h2{
                 font-style: normal;
                 text-align: center;
+                margin-top: 30px;
             }
             
             .social {

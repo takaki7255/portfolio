@@ -11,13 +11,13 @@
 }
 
 * body {
-  background: #00b4bd18;
+  background: #00b4bd23;
 }
 
 * body header .header-text {
   margin: 190px;
   margin-left: 50px;
-  color: #00B2BD;
+  color: #000000;
   font-family: 'klee',sans-serif;
 }
 
@@ -53,7 +53,7 @@
   bottom: 0;
   left: 10%;
   right: 0;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.8);
   opacity: 0;
   color: #fff;
   display: -webkit-box;
@@ -132,9 +132,9 @@
 .global-nav__item a {
   display: block;
   padding: 8px 0;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #000;
   text-decoration: none;
-  color: #eee;
+  color: #000;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
