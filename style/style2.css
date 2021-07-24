@@ -10,6 +10,10 @@
   font-family: 'klee',sans-serif;
 }
 
+* body {
+  background: #00b4bd18;
+}
+
 * body header .header-text {
   margin: 190px;
   margin-left: 50px;
