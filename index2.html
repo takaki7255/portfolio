@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PortFolio</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="style/style2.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src = "script.js" defer></script>
 </head>
 <body>
     <header class="header">
@@ -13,14 +16,32 @@
             <h1>Portfolio</h1>
             <div>Portfolio of Takemichi Takaki<br>WEB design, Digital illust, 3DCG</div>
         </div>
+        <nav class="global-nav">
+            <ul class="global-nav__list">
+                <li class="global-nav__item"><a href="index.html">Top Page</a></li>
+                <li class="global-nav__item"><a href="index1.html">About me</a></li>
+                <li class="global-nav__item"><a href="#web-design">WEB design</a></li>
+                <li class="global-nav__item"><a href="#Illustrator">Digital illust</a></li>
+                <li class="global-nav__item"><a href="#3DCG">3DCG</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger" id="js-hamburger">
+            <span class="hamburger__line hamburger__line--1"></span>
+            <span class="hamburger__line hamburger__line--2"></span>
+            <span class="hamburger__line hamburger__line--3"></span>
+        </div>
+        <div class="black-bg" id="js-black-bg"></div>
     </header>
     <main class="main-contents">
         <ul class="seisaku-zisseki">
             <li>
+                <div id="web-design"></div>
                 <figure>
                     <img src="image/web_image1.png" alt="">
                     <figcaption class="detail">
-
+                        グローバルナビゲーションを使用したサイト<br>
+                        制作時間：３時間<br>
+                        使用ツール：Visual Studio code, HTML, CSS
                     </figcaption>
                 </figure>
             </li>
@@ -28,7 +49,9 @@
                 <figure>
                     <img src="image/web_image2.png" alt="">
                     <figcaption class="detail">
-                        
+                        数当てゲームサイト<br>
+                        制作時間：１時間<br>
+                        使用ツール：Visual Studio code, HTML, CSS
                     </figcaption>
                 </figure>
             </li>
@@ -36,7 +59,10 @@
                 <figure>
                     <img src="image/web_image3.png" alt="">
                     <figcaption class="detail">
-                        
+                        カウントダウンサイト<br>
+                        東京オリンピック開会式までカウントダウン<br>
+                        制作時間：１時間<br>
+                        使用ツール：Visual Studio code, HTML, CSS, JavaScript
                     </figcaption>
                 </figure>
             </li>
@@ -44,15 +70,22 @@
                 <figure>
                     <img src="image/web_image4.png" alt="">
                     <figcaption class="detail">
-                        
+                        画像スライドギャラリー<br>
+                        一定時間ごとに画像がスライド<br>
+                        制作時間：2時間<br>
+                        使用ツール：Visual Studio code, HTML, CSS, JavaScript
                     </figcaption>
                 </figure>
             </li>
             <li>
+                <div id="Illustrator"></div>
                 <figure>
                     <img src="image/illustrator1.jpg" alt="">
                     <figcaption class="detail">
-                        
+                        名刺<br>
+                        架空の電力会社の名刺を制作<br>
+                        制作時間：2時間<br>
+                        使用ツール：Illustrator
                     </figcaption>
                 </figure>
             </li>
@@ -60,7 +93,10 @@
                 <figure>
                     <img src="image/illustrator2.jpg" alt="">
                     <figcaption class="detail">
-                        
+                        加法混色・減法混色ポスター<br>
+                        初めて知る人に見せる想定で制作<br>
+                        制作時間：4時間<br>
+                        使用ツール：Illustrator
                     </figcaption>
                 </figure>
             </li>
@@ -68,7 +104,11 @@
                 <figure>
                     <img src="image/illustrator3.jpg" alt="">
                     <figcaption class="detail">
-                        
+                        ロゴデザイン<br>
+                        製作時募集されていた高知ゆずのロゴのために制作<br>
+                        外国向けのロゴというコンセプト<br>
+                        制作時間：4時間<br>
+                        使用ツール：Illustrator,Photoshop
                     </figcaption>
                 </figure>
             </li>
@@ -76,15 +116,21 @@
                 <figure>
                     <img src="image/sketch1.jpeg" alt="">
                     <figcaption class="detail">
-                        
+                        鉛筆スケッチ<br>
+                        制作時間：10時間<br>
+                        使用ツール：画用紙，鉛筆
                     </figcaption>
                 </figure>
             </li>
             <li>
+                <div id="3DCG"></div>
                 <figure>
                     <img src="image/MAYA1.jpg" alt="">
                     <figcaption class="detail">
-                        
+                        テーブル(3DCG)<br>
+                        モデリング・テクスチャを作成<br>
+                        制作時間：3週間<br>
+                        使用ツール：Autodesk MAYA, Photoshop
                     </figcaption>
                 </figure>
             </li>
@@ -92,12 +138,30 @@
                 <figure>
                     <img src="image/MAYA2.jpg" alt="">
                     <figcaption class="detail">
-                        
+                        コルビジェ　ソファ<br>
+                        モデリングのみ<br>
+                        制作時間：2週間<br>
+                        使用ツール：Autodesk MAYA
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="image/MAYA3.jpg" alt="">
+                    <figcaption class="detail">
+                        コルビジェ　ソファ<br>
+                        モデリング・テクスチャを実装<br>
+                        制作時間：3週間<br>
+                        使用ツール：Autodesk MAYA,Photoshop
                     </figcaption>
                 </figure>
             </li>
         </ul>
         
     </main>
+    <footer id="footer">
+        <div class="copyright">©Takemichi Takaki </div>
+        <p id="page-top"><a href="#"><i class="fa fa-chevron-up"></i></a></p>  
+      </footer>
 </body>
 </html>
