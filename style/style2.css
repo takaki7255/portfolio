@@ -95,7 +95,7 @@
   /* スマホに収まるくらい */
   height: 100vh;
   padding-top: 80px;
-  background-color: #00b4bdb0;
+  background-color: #00b2bd;
   -webkit-transition: all .6s;
   transition: all .6s;
   z-index: 200;
@@ -115,7 +115,7 @@
   z-index: 300;
   background-color: white;
   border-radius: 50%;
-  border: #00B2BD solid 2px;
+  border: #000000 solid 2px;
 }
 
 .global-nav__list {
@@ -149,7 +149,7 @@
   left: 14px;
   width: 22px;
   height: 2px;
-  background-color: #00B2BD;
+  background-color: #000000;
   -webkit-transition: all .6s;
   transition: all .6s;
 }

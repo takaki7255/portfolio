@@ -87,7 +87,7 @@
     width: 400px; /* スマホに収まるくらい */
     height: 100vh;
     padding-top: 80px;
-    background-color: #00b4bdb0;
+    background-color: #00b2bd;
     transition: all .6s;
     z-index: 200;
     overflow-y: auto; /* メニューが多くなったらスクロールできるように */
@@ -102,7 +102,7 @@
     z-index: 300;
     background-color: rgb(255, 255, 255);
     border-radius: 50%;
-    border: #00B2BD solid 2px;
+    border: #000000 solid 2px;
 }
 .global-nav__list {
     margin: 0;
@@ -130,7 +130,7 @@
     left: 14px;
     width: 22px;
     height: 2px;
-    background-color: #00B2BD;
+    background-color: #000000;
     transition: all .6s;
 }
 .hamburger__line--1 {
